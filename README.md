@@ -1,6 +1,6 @@
 # SIEM_Threat-Hunting_OSSEC
 
-## OSSEC Feature:
+## OSSEC Features:
 - **Log based Intrusion Detection (LIDs)**: Actively monitors and analyzes data from multiple log data points in real-time
 
 - **Rootkit and Malware Detection**: Process and file level analysis to detect malicious applications and rootkits
