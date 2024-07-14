@@ -31,6 +31,7 @@ We simulate a small office network architecture which consists of 3 VLANs (Inter
 ## Step-by-step deployment:
 ### Network Architecture in GNS3:
 - Network Architecture: download and install necessary appliance from https://gns3.com/marketplace/appliances
+  ![alt text](https://github.com/HienLeWw/SIEM_Threat-Hunting_OSSEC/blob/main/GNS3-Architecture.png?raw=true)
 - Fortigate:
   +  WAN interface (port 1) config:
   ```
