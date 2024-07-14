@@ -206,7 +206,11 @@ sudo mkdir /var/www/webdav/Downloads
 Or, we can set up File Server by installing Samba
 ## References:
 https://hendgrow.com/2020/10/01/ossec-open-source-hids-with-web-user-interface-updated-for-ubuntu-20-04-ossec-3-6-0/
+
 https://thegioifirewall.com/dvwa-huong-dan-cai-dat-may-chu-dvwa-tren-ubuntu/
+
 https://ossec-documentation.readthedocs.io/en/latest/manual/agentless.html
+
 https://docs.fortinet.com/product/fortigate/7.0
+
 https://docs.gns3.com/
