@@ -27,7 +27,7 @@ We simulate a small office network architecture which consists of 3 VLANs (Inter
 - **VLAN 10 (Internal Network)**: This is the internal network which consists of Staff Workstation
 - **VLAN 20 (Management)**: OSSEC Server is placed in seperated VLAN
 - **VLAN 30 (DMZ)**: We simulate the DMZ of a small office network architect which consists of Web Server, File  Server
-
+![alt text](https://github.com/HienLeWw/SIEM_Threat-Hunting_OSSEC/blob/main/Network-Architecture.png?raw=true)
 ## Step-by-step deployment:
 ### Network Architecture in GNS3:
 - Network Architecture: download and install necessary appliance from https://gns3.com/marketplace/appliances
@@ -127,7 +127,8 @@ sudo apt-get install ossec-hids-server
 # Agent
 sudo apt-get install ossec-hids-agent
 ```
-  + Then, provide our preferred input as prompted
+  + Then, provide our preferred input as prompted. Enable Features: email-notification, integrity check, rootkit detection, active
+response, remote syslog.
 
 OSSEC is located at ```/var/ossec```. To manage the agents and run specific OSSEC command: ```/var/ossec/bin``` 
   + Install Web User Interface
